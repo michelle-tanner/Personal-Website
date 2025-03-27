@@ -2,6 +2,14 @@ import './App.css'
 import EventCard from './components/Images'
 import Home from './pages/Home'
 import Navigation from './components/Navigation'
+import {Routes, Route} from 'react-router-dom'
+import Favorites from './pages/Favorites'
+
+
+import Projects from './pages/Projects'
+import Info from './pages/Info'
+import Contact from './pages/Contact'
+
 
 function App() {
 
@@ -9,9 +17,23 @@ function App() {
 
   return (
     <>
-      {/* <Navigation /> */}
+    <div>
+      <Navigation />
+      <main className="main-content">
+        <Routes>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/info" element={<Info/>}/>
+          <Route path="/contact" element={<Contact/>}/>
 
-      <Home />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/favorites" element={<Favorites/>}/>
+          
+          
+        </Routes>
+      </main>
+
+    </div>
+      
 
 
 

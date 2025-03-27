@@ -1,10 +1,17 @@
 .home {
-
 }
 
+div {
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+}
 .events-grid {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
     gap: 50px;
+}
+.favorites-empty {
 }

@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import '../css/Navigation.css'
 
 function Navigation() {
     return (
     <>
         <nav className="navbar">
             <div className="navbar-brand">
-                <Link to="/">Logo</Link>
+                <Link to="/">
+                    <img src="src/assets/Logo.jpg" alt="Logo" className="logo-small"/>
+                </Link>
             </div>
             <div className="navbar-links">
                 <Link to="/projects" className="nav-link">Projects</Link>
@@ -35,5 +38,6 @@ function Navigation() {
 //         </>
 //     );
 // }
+
 
 export default Navigation

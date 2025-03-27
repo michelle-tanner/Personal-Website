@@ -1,0 +1,26 @@
+/* styles.css */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.logo-small {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-start;
+}

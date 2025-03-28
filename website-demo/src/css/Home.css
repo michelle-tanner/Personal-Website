@@ -1,0 +1,11 @@
+.home {
+    background-color: beige;
+}
+
+.search-form {
+    /* background-color: aqua; */
+}
+.responsive {
+    display: flex;
+    justify-content: center;
+}

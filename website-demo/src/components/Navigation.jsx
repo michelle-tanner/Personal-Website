@@ -15,6 +15,9 @@ function Navigation() {
                 <Link to="/info" className="nav-link">Info</Link>
                 <Link to="/contact" className="nav-link">Contact</Link>
             </div>
+            <div>
+                <p>en/中文</p>
+            </div>
         </nav>
     </>
         

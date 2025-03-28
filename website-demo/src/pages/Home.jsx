@@ -1,6 +1,6 @@
 import EventCard from '../components/Images'
 import {useState} from "react"
-
+import "../css/Home.css"
 
 function Home() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -27,8 +27,7 @@ function Home() {
             </button>
 
         </form>
-
-        <div>Input Typed (real-time): <br></br>{searchQuery}</div>
+        <div className="responsive">Input Typed: <br></br>{searchQuery}</div>
 
     </div>
     );

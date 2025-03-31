@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../css/Navigation.css'
+// import Language from './Language';
 
 function Navigation() {
     return (
@@ -16,8 +17,12 @@ function Navigation() {
                 <Link to="/contact" className="nav-link">Contact</Link>
             </div>
             <div className="navbar-language">
-                {/* <p>en/中文</p> */}
-                <Link to="/favorites" className="nav-link">en/中文</Link>
+                {/* <Link to="/favorites" className="nav-lang">en/中文</Link> */}
+
+                <Link to="/favorites" className="nav-lang">en</Link>
+                <p className="nav-lang">/</p>
+                <Link to="/" className="nav-lang">中文</Link>
+                {/* <Language></Language> */}
             </div>
         </nav>
     </>

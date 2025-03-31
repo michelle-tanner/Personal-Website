@@ -22,7 +22,7 @@ function App() {
     <div>
       <Navigation />
       <main className="main-content">
-        <h3>Main Content</h3>
+        <h3 className="substitute">...Main Content...</h3>
         <Routes>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/info" element={<Info/>}/>

@@ -1,5 +1,6 @@
 .home {
-    color: black;
+    /* color: black; */
+    /* color:white; */
 }
 
 div {
@@ -9,6 +10,13 @@ div {
     display: flex;
     justify-content: center;
 }
+
+.responsive {
+    display: flex;
+    justify-content: center;
+}
+
+
 .events-grid {
     display: flex;
     flex-wrap: wrap;

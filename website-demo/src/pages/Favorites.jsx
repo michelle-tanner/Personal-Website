@@ -36,7 +36,7 @@ function Favorite() {
 
         </form>
 
-        <div>Input Typed (real-time): <br></br>{searchQuery}</div>
+        <div className="responsive">Input Typed (real-time): <br></br>{searchQuery}</div>
 
 
         <div className="events-grid">

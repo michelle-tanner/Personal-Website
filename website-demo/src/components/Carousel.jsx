@@ -1,7 +1,14 @@
 import '../css/Carousel.css'
 
 function Carousel() {
+    const track = document.getElementById("image-track");
+    window.onmousedown = (e) => {
+        track.dataset.mouseDownAt = e.clientX;
+        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+        maxDelta = window.innerWidth / 2;
 
+        const percentage = (mouseDelta / mexDelta) * 100;
+    }
     return (
     <>
     <div className="image-track">
@@ -16,6 +23,7 @@ function Carousel() {
         <img className="image" src="src/assets/skiing.png" />
         <img className="image" src="src/assets/uic.png" />
     </div>
+    <div>{}</div>
     </>
     );
 

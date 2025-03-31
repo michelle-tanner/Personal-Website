@@ -1,15 +1,17 @@
 import './App.css'
 import EventCard from './components/Images'
 import Home from './pages/Home'
-import Navigation from './components/Navigation'
+
 import {Routes, Route} from 'react-router-dom'
 import Favorites from './pages/Favorites'
 
+import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 
 import Projects from './pages/Projects'
 import Info from './pages/Info'
 import Contact from './pages/Contact'
-
+import Biggs from './pages/Biggs'
 
 function App() {
 
@@ -27,8 +29,10 @@ function App() {
 
           <Route path="/" element={<Home/>}/>
           <Route path="/favorites" element={<Favorites/>}/>
-          
-          
+
+          <Route path="/bbm" element={<Biggs/>}/>
+          <Route path="/cr" element={<Favorites/>}/>
+        
         </Routes>
       </main>
 

@@ -1,7 +1,7 @@
 import EventCard from '../components/Images'
 import {useState} from "react"
 import "../css/Home.css"
-
+import Footer from '../components/Footer'
 function Home() {
     const [searchQuery, setSearchQuery] = useState("");
 
@@ -13,6 +13,8 @@ function Home() {
 
 
     return (
+    <>
+    
     <div className="home">
         <form onSubmit={handleSearch} className="search-form">
             <input 
@@ -30,6 +32,8 @@ function Home() {
         <div className="responsive">Input Typed: <br></br>{searchQuery}</div>
 
     </div>
+    <Footer />
+    </>
     );
 }
 

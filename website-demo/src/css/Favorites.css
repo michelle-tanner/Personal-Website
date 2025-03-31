@@ -1,7 +1,9 @@
 .home {
+    color: black;
 }
 
 div {
+    color: black;
 }
 .search-form {
     display: flex;
@@ -14,4 +16,5 @@ div {
     gap: 50px;
 }
 .favorites-empty {
+    color: black;
 }

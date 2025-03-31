@@ -2,15 +2,15 @@ import EventCard from '../components/Images'
 import {useState} from "react"
 import "../css/Home.css"
 import Footer from '../components/Footer'
+
+
 function Home() {
     const [searchQuery, setSearchQuery] = useState("");
-
 
     const handleSearch = (e) => {
         e.preventDefault()
         alert(searchQuery)
     }
-
 
     return (
     <>
@@ -33,6 +33,7 @@ function Home() {
 
     </div>
     <Footer />
+    
     </>
     );
 }

@@ -20,7 +20,7 @@ function Favorite() {
 
 
     return (
-    <div className="home">
+    <div className="favorites">
 
         <form onSubmit={handleSearch} className="search-form">
             <input 

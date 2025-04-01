@@ -3,15 +3,16 @@ import EventCard from './components/Images'
 import Home from './pages/Home'
 
 import {Routes, Route} from 'react-router-dom'
-import Favorites from './pages/Favorites'
 
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
+import Favorites from './pages/Favorites'
 import Projects from './pages/Projects'
 import Info from './pages/Info'
 import Contact from './pages/Contact'
 import Biggs from './pages/Biggs'
+import Carousel_demo from './pages/carousel-demo'
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
 
           <Route path="/" element={<Home/>}/>
           <Route path="/favorites" element={<Favorites/>}/>
-
+          <Route path="/carousel-page" element={<Carousel_demo/>}/>
           <Route path="/bbm" element={<Biggs/>}/>
           <Route path="/cr" element={<Favorites/>}/>
         

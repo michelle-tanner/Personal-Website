@@ -20,7 +20,7 @@ function Navigation() {
 
                 <Link to="/favorites" className="nav-lang">en</Link>
                 <p className="nav-lang">/</p>
-                <Link to="/" className="nav-lang">中文</Link>
+                <Link to="/carousel-page" className="nav-lang">中文</Link>
                 {/* <Language></Language> */}
             </div>
         </nav>

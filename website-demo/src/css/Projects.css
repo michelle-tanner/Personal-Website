@@ -1,0 +1,23 @@
+.projects {
+    background-color: antiquewhite;
+}
+
+.project {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 75px 250px;
+    /* padding-left: 250px; */
+    /* padding-right: 250px; */
+    /* padding-top: 75px; */
+    /* padding-bottom: 75px; */
+}
+.description {
+    padding: 50px;
+}
+
+.image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}

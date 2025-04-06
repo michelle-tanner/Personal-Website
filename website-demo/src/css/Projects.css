@@ -1,23 +1,33 @@
 .projects {
     background-color: antiquewhite;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }
 
 .project {
     display: flex;
     flex-wrap: nowrap;
-    padding: 75px 250px;
-    /* padding-left: 250px; */
-    /* padding-right: 250px; */
-    /* padding-top: 75px; */
-    /* padding-bottom: 75px; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 75px 100px; */
+    /* padding: 75px 250px; */
+    /* padding-left: 75px; */
+    /* padding-right: 75px; */
+    /* padding: 75px; */
 }
 .description {
-    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 80vmin;
+    height: 50vmin;
 }
 
 .image {
-    width: 40vmin;
-    height: 56vmin;
+    /* width: 43vmin; */
+    /* height: 35vmin; */
+    width: 80vmin;
+    height: 50vmin;
     object-fit: cover;
     object-position: center;
 }

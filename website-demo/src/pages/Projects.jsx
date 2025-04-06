@@ -39,10 +39,24 @@ function Projects() {
                 </div>
 
             </div>
+            <div className="project">
+                <div className="description">
+                    <h3>Project 3</h3>
+                    <p>
+                        words words desciption and more words words desciption and more words words desciption and more words words desciption and more words words desciption and more words words desciption and more words words desciption and more words words desciption and more words words desciption.<br></br>
+                        <br></br>
+                        Inspired by: CLOU Website
+                        Check out the Project: 
+                    </p>
+                    
+                </div>
+                <img className="image" src="src/assets/pool.png" alt="" title=""></img>
+                
+            </div>
             
         </div>
-        <h3>Projects Page</h3>
-        <p>in progress...</p>
+        {/* <h3>Projects Page</h3>
+        <p>in progress...</p> */}
         <div className="">
 
         </div>

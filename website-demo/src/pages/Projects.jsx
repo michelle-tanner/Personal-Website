@@ -11,6 +11,9 @@ function Projects() {
 
     return (
         <>
+
+        <h3>Projects Page</h3>
+        <p>in progress...</p>
         <div className="projects">
             <div className="project">
                 <div className="description">
@@ -55,8 +58,8 @@ function Projects() {
             </div>
             
         </div>
-        {/* <h3>Projects Page</h3>
-        <p>in progress...</p> */}
+        <h3>Projects Page</h3>
+        <p>in progress...</p>
         <div className="">
 
         </div>

@@ -58,8 +58,7 @@ function Projects() {
             </div>
             
         </div>
-        <h3>Projects Page</h3>
-        <p>in progress...</p>
+       
         <div className="">
 
         </div>

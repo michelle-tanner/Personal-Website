@@ -26,8 +26,8 @@
 .image {
     /* width: 43vmin; */
     /* height: 35vmin; */
-    width: 80vmin;
-    height: 50vmin;
+    /* width: 80vmin;
+    height: 50vmin; */
     object-fit: cover;
     object-position: center;
 }

@@ -1,27 +1,20 @@
+import '../css/ProjectCard.css'
 
-
-function ProjectCard({event}) {
+function ProjectCard({name, imgURL}) {
 
     function onFavoriteClick() {
         alert("clicked")
     }
 
-    return <div className="event-card">
-        <div className="event-image">
-            <img src={event.url} alt={event.title}/>
-            <div className="event-overlay">
-                <button className="favorite-btn" onClick={onFavoriteClick}>
-                    ♥
-                </button>
-            </div>
+    return <div className="project-card">
+        <img className="project-image" src={imgURL} alt="project display"></img>
+        <div className="title">{name}</div>
+        <div className="description">description here...description here...description here...</div>
+        <div className="btns">
+            <button className="demo">Live Demo</button>
+            <button className="source">Source Code</button>
         </div>
-        <div className="event-info">
-
-            <h3>{event.title}</h3>
-            <p>{event.description}<br></br>{event.date}</p>
-        </div>
-
-
+        
     </div>
     
 }

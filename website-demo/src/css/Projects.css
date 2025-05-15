@@ -1,33 +1,5 @@
 .projects {
-    /* background-color: antiquewhite; */
-    padding-top: 80px;
-    padding-bottom: 80px;
-
-}
-
-.project {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    /* padding: 75px 100px; */
-    /* padding: 75px 250px; */
-    /* padding-left: 75px; */
-    /* padding-right: 75px; */
-    padding: 75px;
-}
-.description {
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 80vmin;
-    height: 50vmin;
-}
-
-.image {
-    /* width: 43vmin; */
-    /* height: 35vmin; */
-    /* width: 80vmin;
-    height: 50vmin; */
-    object-fit: cover;
-    object-position: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

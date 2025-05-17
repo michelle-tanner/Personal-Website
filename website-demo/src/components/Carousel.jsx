@@ -72,16 +72,16 @@ function Carousel() {
     <>
     <div className="carousel">
         <div className="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-            <img className="image" src="src/assets/blue_line.png" draggable="false"/>
-            <img className="image" src="src/assets/cta_stop.png" draggable="false"/>
-            <img className="image" src="src/assets/dave_and_busters.png" draggable="false"/>
-            <img className="image" src="src/assets/girls.jpg" draggable="false"/>
-            <img className="image" src="src/assets/mango_mango.png" draggable="false"/>
-            <img className="image" src="src/assets/mountain.png" draggable="false"/>
-            <img className="image" src="src/assets/ohik.png" draggable="false"/>
-            <img className="image" src="src/assets/pool.png" draggable="false"/>
-            <img className="image" src="src/assets/skiing.png" draggable="false"/>
-            <img className="image" src="src/assets/uic.png" draggable="false"/>
+            <img className="image" src="src/assets/images/blue_line.png" draggable="false"/>
+            <img className="image" src="src/assets/images/cta_stop.png" draggable="false"/>
+            <img className="image" src="src/assets/images/dave_and_busters.png" draggable="false"/>
+            <img className="image" src="src/assets/images/girls.jpg" draggable="false"/>
+            <img className="image" src="src/assets/images/mango_mango.png" draggable="false"/>
+            <img className="image" src="src/assets/images/mountain.png" draggable="false"/>
+            <img className="image" src="src/assets/images/ohik.png" draggable="false"/>
+            <img className="image" src="src/assets/images/pool.png" draggable="false"/>
+            <img className="image" src="src/assets/images/skiing.png" draggable="false"/>
+            <img className="image" src="src/assets/images/uic.png" draggable="false"/>
         </div>
     </div>
     

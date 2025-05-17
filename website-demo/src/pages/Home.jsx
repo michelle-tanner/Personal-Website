@@ -1,7 +1,8 @@
 import "../css/Home.css"
-import Footer from '../components/Footer'
-import AboutMe from '../components/AboutMe'
-import TechStack from "../components/TechStack";
+import Footer from '../components/Footer.jsx'
+import AboutMe from '../components/AboutMe.jsx'
+import TechStack from '../components/TechStack.jsx';
+import Experience from '../components/Experience.jsx'
 
 function Home() {
 
@@ -12,7 +13,7 @@ function Home() {
     <div className="home">
         <AboutMe/>
         <TechStack/>
-
+        <Experience/>
         
 
     </div>

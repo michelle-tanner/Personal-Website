@@ -3,6 +3,7 @@ import '../css/AboutMe.css'
 function TechStack() {
     return (
         <>
+        Tech Stack
         <div className="info">
             <div className="horizontal">
                 <div className="fullstack">Web-Development

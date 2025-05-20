@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+img {
+    width: 50px;
+}

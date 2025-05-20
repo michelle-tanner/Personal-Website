@@ -11,13 +11,13 @@
 .contact {
     padding: 10px 50px;
 }
-a {
+.information a {
     display: flex;
     flex-direction: column;
     font-size: larger;
 }
 
-img {
+.information img {
     width: 50px;
 }
 

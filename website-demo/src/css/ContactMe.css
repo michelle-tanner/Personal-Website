@@ -1,6 +1,11 @@
 .info {
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    padding: 50px;
 }
 
 a {
@@ -11,4 +16,8 @@ a {
 
 img {
     width: 50px;
+}
+
+.linkedin {
+    padding: 10px 50px;
 }

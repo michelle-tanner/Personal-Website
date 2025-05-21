@@ -6,7 +6,7 @@ function Contact() {
         <div className="information info">
            <div className="contact">
                 <a href="https://linkedin.com/in/michelletanner05" target="_blank"><img src="src/assets/icons/linkedin.svg" alt="img"></img>LinkedIn</a>
-                michelle-tanner-05
+                michelletanner05
            </div>
            <div className="contact">
                 <a href="https://github.com/michelle-tanner" target="_blank"><img src="src/assets/icons/github.svg" alt="img"></img>Github</a>

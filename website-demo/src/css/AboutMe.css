@@ -50,3 +50,17 @@
     width: 2rem;
     padding: 5px;
 }
+
+/* experience */
+.project {
+    display: flex;
+    padding: 5px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(135, 82, 181); /* Red background */
+    border: 2px solid #000; /* Black border */
+}

@@ -1,4 +1,4 @@
-import '../css/ExpCard.css'
+import '../css/AboutMe.css'
 
 function ExpCard(experience) {
     return (

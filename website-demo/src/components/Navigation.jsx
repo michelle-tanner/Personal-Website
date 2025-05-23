@@ -18,9 +18,9 @@ function Navigation() {
             <div className="navbar-language">
                 {/* <Link to="/favorites" className="nav-lang">en/中文</Link> */}
 
-                <Link to="/favorites" className="nav-lang">en</Link>
+                <Link to="/favorites" className="nav-lang"><img src="src/assets/icons/Sun.svg" alt="light-mode"></img></Link>
                 <p className="nav-lang">/</p>
-                <Link to="/carousel-page" className="nav-lang">中文</Link>
+                <Link to="/carousel-page" className="nav-lang"><img src="src/assets/icons/Moon.svg" alt="dark-mode"></img></Link>
                 {/* <Language></Language> */}
             </div>
         </nav>

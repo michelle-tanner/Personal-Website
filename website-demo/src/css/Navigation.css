@@ -1,7 +1,7 @@
 /* styles.css */
-
 nav {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Itim';
     font-weight: normal;
     /* font-family: "Azeret Mono", monospace; */
 }
@@ -74,17 +74,21 @@ nav {
     text-decoration: none;
 }
 
-.nav-lang:after {
+/* .nav-lang:after {
     content: '';
     width: 0; height: 2px;
     display: block;
     margin-top: 2px;
     right: 0;
     transition: width .5s ease;
-}
-.nav-lang:hover:after {
+} */
+/* .nav-lang:hover:after {
     width: 100%;
     left: 0;
     background: black;
     text-decoration: underline;
+} */
+.nav-lang img {
+    height: 20px;
+    padding: 10px;
 }

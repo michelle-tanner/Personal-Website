@@ -15,7 +15,6 @@ function Home() {
         <TechStack/>
         <Experience/>
         
-
     </div>
     <Footer />
     

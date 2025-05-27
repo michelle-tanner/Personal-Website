@@ -1,5 +1,7 @@
 .info {
-    width: 40%;
+    /* width: 40%; */
+    /* width: 100%; */
+    max-width: 500px;
     background-color: #f9f9f9;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -7,10 +9,10 @@
 .horizontal {
     display: flex;
     justify-content: space-between;
-    padding: 20px 15px 10px 15px;
+    padding: 25px 20px 10px 20px;
 }
 .about {
-    padding: 10px 15px 20px 15px;
+    padding: 10px 20px 25px 20px;
 }
 
 /* about me */
@@ -58,9 +60,12 @@
 }
 
 .circle {
-    width: 10px;
+    min-width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: rgb(135, 82, 181); /* Red background */
     border: 2px solid #000; /* Black border */
+}
+.title {
+    color:#000;
 }

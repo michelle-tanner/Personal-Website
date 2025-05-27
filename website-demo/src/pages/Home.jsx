@@ -11,9 +11,14 @@ function Home() {
 
 
     <div className="home">
-        <AboutMe/>
-        <TechStack/>
-        <Experience/>
+        <div className="left-side">
+            <AboutMe/>
+            <TechStack/>
+        </div>
+        <div className="right-side">
+            <Experience/>
+        </div>
+       
         
     </div>
     <Footer />

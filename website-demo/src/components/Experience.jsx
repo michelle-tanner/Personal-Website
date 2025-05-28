@@ -1,4 +1,4 @@
-import ExpCard from '../components/ExpCard'
+import ExpCard from '../components/ExpCard.jsx'
 
 function Experience() {
     return (

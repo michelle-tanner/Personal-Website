@@ -1,24 +1,8 @@
-/* styling from AboutMe.css */
-.inform {
-    width: 40%;
-    background-color: #f9f9f9;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-}
-
-.inform a {
-    text-decoration: none;
-}
-.inform a:link {
-    color: black;
-}
-.inform a:visited {
-    color: black;
-}
 
 /* styling for ContactMe */
 .information {
-    width: 70%;
+    /* width: 70%; */
+    max-width: 850px;
     margin: auto;
     margin-top: 5%;
     display: flex;

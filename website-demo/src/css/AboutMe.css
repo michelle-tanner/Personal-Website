@@ -68,3 +68,7 @@
     background-color: rgb(135, 82, 181); /* Red background */
     border: 2px solid #000; /* Black border */
 }
+
+.project-title {
+    padding-left: 10px;
+}

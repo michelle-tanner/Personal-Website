@@ -6,7 +6,7 @@ function ExpCard(experience) {
         <div className="project">
             <div className="horizontal">
                 <div className="circle"></div>
-                <div className="title">{experience.name}</div>
+                <div className="project-title">{experience.name}</div>
             </div>
             <div className="about">
                 {experience.description}

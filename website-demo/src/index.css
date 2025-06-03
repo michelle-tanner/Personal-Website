@@ -1,3 +1,17 @@
+:root {
+  font-family: 'Itim'; /*found here and index.html*/
+  font-weight: normal;
+  color-scheme: light dark;
+  
+  --background-color: white;
+  --box-color: #f9f9f9;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+  --primary-text-color: black;
+  --secondary-text-color: rgb(80, 80, 80);
+
+}
+
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

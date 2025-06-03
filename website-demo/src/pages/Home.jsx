@@ -12,11 +12,11 @@ function Home() {
 
     <div className="home">
         <div className="left-side">
-            <AboutMe/>
-            <TechStack/>
+            {/* <AboutMe/> */}
+            {/* <TechStack/> */}
         </div>
         <div className="right-side">
-            <Experience/>
+            {/* <Experience/> */}
         </div>
        
         

@@ -1,10 +1,10 @@
 import '../css/ContactMe.css'
 
-function Contact() {
+function ContactMe() {
     return (
         <>
-        <div className="information info">
-           <div className="contact">
+        <div className="box">
+            <div className="contact">
                 <a href="https://linkedin.com/in/michelletanner05" target="_blank"><img src="src/assets/icons/linkedin.svg" alt="img"></img>LinkedIn</a>
                 michelletanner05
            </div>
@@ -21,4 +21,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default ContactMe

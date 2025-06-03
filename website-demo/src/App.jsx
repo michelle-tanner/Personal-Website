@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div data-theme="dark">
       <Navigation />
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}

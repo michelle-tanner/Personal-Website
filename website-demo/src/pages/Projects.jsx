@@ -8,11 +8,11 @@ function Projects() {
     return (
         <>
         <div className="projects">
-            <Project style="flex-grow: 1" name="Voyage Game" imgURL="src/assets/images/mountain.png" description="" stack="python, pycahrm"/>
-            <Project style="flex-grow: 1" name="Cow Chase" imgURL="src/assets/images/blue_line.png" description=""/>
-            <Project style="flex-grow: 1" name="Pad Thai" imgURL="src/assets/images/dave_and_busters.png" description=""/>
-            <Project style="flex-grow: 1" name="WiCs Website" imgURL="src/assets/images/uic.png" description=""/>
-            <Project style="flex-grow: 1" name="Personal Website" imgURL="src/assets/images/cta_stop.png" description=""/>
+            <Project name="Voyage Game" imgURL="src/assets/images/mountain.png" />
+            <Project name="Cow Chase" imgURL="src/assets/images/blue_line.png" />
+            <Project name="Pad Thai" imgURL="src/assets/images/dave_and_busters.png" />
+            <Project name="WiCs Website" imgURL="src/assets/images/uic.png" />
+            <Project name="Personal Website" imgURL="src/assets/images/cta_stop.png" />
         </div>
 
         

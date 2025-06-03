@@ -1,6 +1,12 @@
-:root {
-  font-family: 'Itim'; /*found here and index.html*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim';
   font-weight: normal;
+}
+
+:root {
   color-scheme: light dark;
   
   --background-color: white;
@@ -16,7 +22,7 @@
   --box-color: #222222;
   --box-shadow-color: rgba(255, 255, 255, 0.5);
   --primary-text-color: white;
-  --secondary-text-color: rgb(80, 80, 80);
+  --secondary-text-color: rgb(215, 215, 215);
 
 }
 

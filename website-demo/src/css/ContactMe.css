@@ -31,10 +31,13 @@
     width: 3rem;
     padding: 5px;
 }
-
+.icon {
+    stroke: white;
+    fill: white;
+}
 .contact {
     display: flex;
     flex-direction: column;
-    padding: 10px 50px;
+    padding: 10px 30px;
     color: var(--secondary-text-color);
 }

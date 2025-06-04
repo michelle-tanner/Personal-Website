@@ -21,7 +21,7 @@ function Home() {
        
         
     </div>
-    {/* <Footer /> */}
+    <Footer />
     
     </>
     );

@@ -14,14 +14,15 @@ import Contact from './pages/Contact'
 import Biggs from './pages/Biggs'
 import Carousel_demo from './pages/carousel-demo'
 import React, {useState} from "react"
+import {Toggle} from './components/Toggle'
 
 function App() {
   const [isDark, setIsDark] = useState(true);
-  // const eventNumber = 1;
 
   return (
     <>
     <div className="screen" data-theme={isDark ? "dark" : "light"}>
+      <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
       <Navigation />
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}

@@ -15,9 +15,12 @@ import Biggs from './pages/Biggs'
 import Carousel_demo from './pages/carousel-demo'
 import React, {useState} from "react"
 import {Toggle} from './components/Toggle'
+import useLocalStorage from "use-local-storage";
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
+  // const [isDark, setIsDark] = useState(false);
+  // stores value so even if refreshed, it doesn't change mode 
+  const [isDark, setIsDark] = useLocalStorage("isDark", false);
 
   return (
     <>

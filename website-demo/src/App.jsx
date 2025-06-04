@@ -22,8 +22,10 @@ function App() {
   return (
     <>
     <div className="screen" data-theme={isDark ? "dark" : "light"}>
-      <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
-      <Navigation />
+      {/* <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)}/> */}
+      
+      <Navigation isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
+      
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}
         <Routes>

@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import '../css/Navigation.css'
 import {useState} from "react"
 
-function Navigation() {
-    const [ handleChange, isChecked ] = useState("words");
+function Navigation({ handleChange, isChecked }) {
+    // const [ handleChange, isChecked ] = useState("words");
     return (
     <>
         <nav className="navbar">
@@ -18,11 +18,20 @@ function Navigation() {
                 <Link to="/contact" className="nav-link">Contact</Link>
             </div>
             <div className="navbar-language">
-                {/* <Link to="/favorites" className="nav-lang">en/中文</Link> */}
-                <Link to="/favorites" className="nav-lang"><img src="src/assets/icons/Sun.svg" alt="light-mode"></img></Link>
+                {/* <Link to="/favorites" className="nav-lang"><img src="src/assets/icons/Sun.svg" alt="light-mode"></img></Link>
                 <p className="nav-lang">/</p>
-                <Link to="/carousel-page" className="nav-lang"><img src="src/assets/icons/Moon.svg" alt="dark-mode"></img></Link>
-                {/* <Language></Language> */}
+                <Link to="/carousel-page" className="nav-lang"><img src="src/assets/icons/Moon.svg" alt="dark-mode"></img></Link> */}
+            
+                <div className="toggle-container">
+                    <input 
+                        type="checkbox" 
+                        id="check" 
+                        className="toggle" 
+                        onChange={handleChange} 
+                        checked={isChecked}
+                    />
+                    <label htmlFor="check">DarkMode</label>
+                </div>
             </div>
         </nav>
     </>

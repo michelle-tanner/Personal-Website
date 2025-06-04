@@ -17,7 +17,7 @@ import React, {useState} from "react"
 import {Toggle} from './components/Toggle'
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <>

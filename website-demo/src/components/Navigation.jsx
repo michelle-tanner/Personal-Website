@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import '../css/Navigation.css'
+import {useState} from "react"
 
 function Navigation() {
+    const [ handleChange, isChecked ] = useState("words");
     return (
     <>
         <nav className="navbar">
@@ -17,7 +19,6 @@ function Navigation() {
             </div>
             <div className="navbar-language">
                 {/* <Link to="/favorites" className="nav-lang">en/中文</Link> */}
-
                 <Link to="/favorites" className="nav-lang"><img src="src/assets/icons/Sun.svg" alt="light-mode"></img></Link>
                 <p className="nav-lang">/</p>
                 <Link to="/carousel-page" className="nav-lang"><img src="src/assets/icons/Moon.svg" alt="dark-mode"></img></Link>

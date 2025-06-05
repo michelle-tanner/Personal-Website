@@ -122,7 +122,7 @@ button {
     text-transform: uppercase;
 
 }
-input {
+.container input {
     display: none;
 }
 input:checked + label {

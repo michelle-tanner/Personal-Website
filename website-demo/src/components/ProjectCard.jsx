@@ -31,7 +31,7 @@ function ProjectCard(project) {
                             </div>
                         </div>
                     </label>
-                    <input type="radio" name="slide" id="c2" />
+                    <input type="radio" name="slide" id="c2" checked />
                     <label for="c2" class="card">
                         <div className="row">
                             <div className="icon">2</div>
@@ -41,7 +41,7 @@ function ProjectCard(project) {
                             </div>
                         </div>
                     </label>
-                    <input type="radio" name="slide" id="c3" />
+                    <input type="radio" name="slide" id="c3" checked />
                     <label for="c3" class="card">
                         <div className="row">
                             <div className="icon">3</div>
@@ -51,7 +51,7 @@ function ProjectCard(project) {
                             </div>
                         </div>
                     </label>
-                    <input type="radio" name="slide" id="c4" />
+                    <input type="radio" name="slide" id="c4" checked />
                     <label for="c4" class="card">
                         <div className="row">
                             <div className="icon">4</div>

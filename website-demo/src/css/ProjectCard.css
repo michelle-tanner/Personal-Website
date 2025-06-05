@@ -117,7 +117,8 @@ button {
     padding-top: 5px;
 }
 
-.description h4 {
+.description h2 {
+    color: white;
     text-transform: uppercase;
 
 }

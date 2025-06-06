@@ -1,7 +1,5 @@
-// import "../css/index.css"
 import "../css/ProjectCard.css"
-import Project from '../components/Projects.jsx'
-import Footer from '../components/Footer'
+import Project from '../components/ProjectCard.jsx'
 
 function Projects() {
 

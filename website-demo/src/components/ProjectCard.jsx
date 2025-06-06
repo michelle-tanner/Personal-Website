@@ -3,7 +3,11 @@ function P2(project) {
         <>
         <div className="container">
             <input type="radio" name="slide" id={`c${project.num}`} /> {/*checked*/}
-                <label for={`c${project.num}`} class="card">
+                <label 
+                    for={`c${project.num}`} 
+                    class="card"
+                    // style={{ backgroundImage: `url('${project.url}')`}}
+                >
                     <div className="row">
                         <div className="icon">{project.num}</div>
                         <div className="description">

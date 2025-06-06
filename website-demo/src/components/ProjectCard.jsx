@@ -2,7 +2,7 @@ function P2(project) {
     return (
         <>
         <div className="container">
-            <input type="radio" name="slide" id={`c${project.num}`} checked />
+            <input type="radio" name="slide" id={`c${project.num}`} /> {/*checked*/}
                 <label for={`c${project.num}`} class="card">
                     <div className="row">
                         <div className="icon">{project.num}</div>

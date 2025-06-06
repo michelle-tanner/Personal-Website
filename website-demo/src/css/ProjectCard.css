@@ -91,8 +91,10 @@ button {
 }
 
 .card > .row > .icon {
-    background: #223;
-    color: white;
+    /* background: #223; */
+    /* color: white; */
+    background: var(--background-color);
+    color: var(--primary-text-color);
     border-radius: 50%;
     width: 50px;
     display: flex;
@@ -145,4 +147,7 @@ input:checked + label .description {
 }
 .card[for="c4"] {
     background-image: url('../assets/images/skiing.png');
+}
+.card[for="c5"] {
+    background-image: url('../assets/images/pool.png');
 }

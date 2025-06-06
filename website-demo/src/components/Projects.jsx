@@ -1,10 +1,7 @@
-// import "../css/index.css"
-import "../css/ProjectCard.css"
-import Project from '../components/Projects.jsx'
-import Footer from '../components/Footer'
+import '../css/ProjectCard.css'
+import Project from '../components/P2'
 
-function Projects() {
-
+function P1() {
     return (
         <>
         <div className="wrapper">
@@ -15,6 +12,5 @@ function Projects() {
         </div>
         </>
     )
-
 }
-export default Projects
+export default P1

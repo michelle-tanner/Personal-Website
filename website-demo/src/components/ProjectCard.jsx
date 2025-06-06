@@ -14,7 +14,6 @@ function P2(project) {
                 </label>
         </div>
         
-        
         </>
     )
 }

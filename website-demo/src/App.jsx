@@ -55,7 +55,7 @@ function App() {
         handleChange={() => setIsDark(!isDark)}
         SunIcon={currSunIcon}
         MoonIcon={currMoonIcon}
-        />
+      />
       
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}

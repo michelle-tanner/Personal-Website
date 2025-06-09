@@ -86,17 +86,17 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('../assets/images/blue_line.png');
+    background-image: url('../assets/projects/wics_website.svg');
 }
 .card[for="c2"] {
-    background-image: url('../assets/images/cta_stop.png');
+    background-image: url('../assets/projects/personal_website.jpg');
 }
 .card[for="c3"] {
-    background-image: url('../assets/images/mango_mango.png');
+    background-image: url('../assets/projects/thai_bowl.jpg');
 }
 .card[for="c4"] {
-    background-image: url('../assets/images/skiing.png');
+    background-image: url('../assets/projects/personal_website_2.jpg');
 }
 .card[for="c5"] {
-    background-image: url('../assets/images/pool.png');
+    background-image: url('../assets/projects/wics_website.jpg');
 }

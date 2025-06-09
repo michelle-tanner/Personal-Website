@@ -16,16 +16,22 @@ import Carousel_demo from './pages/carousel-demo'
 import React, {useState} from "react"
 import {Toggle} from './components/Toggle'
 import useLocalStorage from "use-local-storage";
-
+// Navigation Bar 
 import logoLight from './assets/images/logo-light.svg'
 import logoDark from './assets/images/logo-dark.svg'
 
+import lightSun from './assets/icons/Sun.svg'
+import lightMoon from './assets/icons/Moon.svg'
+import darkSun from './assets/icons/Sun-dark.svg'
+import darkMoon from './assets/icons/Moon-dark.svg'
+// Contact Page 
 import lightLinkedIn from './assets/icons/linkedin.svg'
 import lightGithub from './assets/icons/github.svg'
 import lightEmail from './assets/icons/mail.svg'
 import darkLinkedIn from './assets/icons/linkedin-dark.svg'
 import darkGithub from './assets/icons/github-dark.svg'
 import darkEmail from './assets/icons/mail-dark.svg'
+
 
 function App() {
   // const [isDark, setIsDark] = useState(false);
@@ -35,13 +41,21 @@ function App() {
   const currLinkedIn = isDark ? darkLinkedIn : lightLinkedIn;
   const currGithub = isDark ? darkGithub : lightGithub;
   const currEmail = isDark ? darkEmail : lightEmail;
+  const currSunIcon = isDark ? darkSun : lightSun;
+  const currMoonIcon = isDark ? darkMoon : lightMoon;
 
   return (
     <>
     <div className="screen" data-theme={isDark ? "dark" : "light"}>
       {/* <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)}/> */}
       
-      <Navigation icon={currentLogo} isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
+      <Navigation 
+        icon={currentLogo} 
+        isChecked={isDark} 
+        handleChange={() => setIsDark(!isDark)}
+        SunIcon={currSunIcon}
+        MoonIcon={currMoonIcon}
+        />
       
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import '../css/Navigation.css'
 import {useState} from "react"
 
-import SunIcon from '../assets/icons/Sun.svg'
-import MoonIcon from '../assets/icons/Moon.svg'
+// import SunIcon from '../assets/icons/Sun.svg'
+// import MoonIcon from '../assets/icons/Moon.svg'
 
-function Navigation({ icon, handleChange, isChecked }) {
+function Navigation({ icon, handleChange, isChecked, SunIcon, MoonIcon }) {
     
     // changes the state if not already in state 
     const setLightMode = () => {

@@ -96,7 +96,7 @@ nav {
 .nav-lang:hover:after {
     width: 100%;
     left: 0;
-    background: black;
+    background: var(--primary-text-color);
     text-decoration: underline;
 }
 

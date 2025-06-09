@@ -20,11 +20,21 @@ import useLocalStorage from "use-local-storage";
 import logoLight from './assets/images/logo-light.svg'
 import logoDark from './assets/images/logo-dark.svg'
 
+import lightLinkedIn from './assets/icons/linkedin.svg'
+import lightGithub from './assets/icons/github.svg'
+import lightEmail from './assets/icons/mail.svg'
+import darkLinkedIn from './assets/icons/linkedin-dark.svg'
+import darkGithub from './assets/icons/github-dark.svg'
+import darkEmail from './assets/icons/mail-dark.svg'
+
 function App() {
   // const [isDark, setIsDark] = useState(false);
   // stores value so even if refreshed, it doesn't change mode 
   const [isDark, setIsDark] = useLocalStorage("isDark", false);
   const currentLogo = isDark ? logoDark : logoLight;
+  const currLinkedIn = isDark ? darkLinkedIn : lightLinkedIn;
+  const currGithub = isDark ? darkGithub : lightGithub;
+  const currEmail = isDark ? darkEmail : lightEmail;
 
   return (
     <>
@@ -38,7 +48,7 @@ function App() {
         <Routes>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/info" element={<Info/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/contact" element={<Contact linkedin={currLinkedIn} github={currGithub} email={currEmail}/>}/>
 
           <Route path="/" element={<Home/>}/>
           <Route path="/favorites" element={<Favorites/>}/>

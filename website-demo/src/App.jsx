@@ -17,17 +17,21 @@ import React, {useState} from "react"
 import {Toggle} from './components/Toggle'
 import useLocalStorage from "use-local-storage";
 
+import logoLight from './assets/images/logo-light.svg'
+import logoDark from './assets/images/logo-dark.svg'
+
 function App() {
   // const [isDark, setIsDark] = useState(false);
   // stores value so even if refreshed, it doesn't change mode 
   const [isDark, setIsDark] = useLocalStorage("isDark", false);
+  const currentLogo = isDark ? logoDark : logoLight;
 
   return (
     <>
     <div className="screen" data-theme={isDark ? "dark" : "light"}>
       {/* <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)}/> */}
       
-      <Navigation isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
+      <Navigation icon={currentLogo} isChecked={isDark} handleChange={() => setIsDark(!isDark)}/>
       
       <main className="main-content">
         {/* <h3 className="substitute">...Main Content...</h3> */}

@@ -90,6 +90,10 @@ nav {
     background: black;
     text-decoration: underline;
 } */
+.navbar-brand img {
+    height: 50px;
+    padding: 0;
+}
 .nav-lang img {
     height: 20px;
     padding: 10px;

@@ -2,13 +2,12 @@
 `initial design for 2D website using React and Vite (lightweight web server to run React)`
 
 **Content:**
-- [o] Home Page 
-- [o] Projects 
-- [o] Info 
+- [ ] Home Page 
+- [ ] Projects 
+- [ ] Info 
 - [X] Contact
 
-> | Languages                       |
-> | -----------|--------------------|
+> | Languages                       
 > | HTML | css | React | JavaScript |
 
 *[LinkedIn](https://linkedin.com/michelletanner05)

@@ -9,6 +9,7 @@
 
 > > Languages                       
 > | HTML | css | React | JavaScript |
-
+ 
 *[LinkedIn](https://linkedin.com/michelletanner05)
 [Github](https://github.com/michelle-tanner)*
+

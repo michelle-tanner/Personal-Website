@@ -2,6 +2,12 @@ import EventCard from '../components/Images'
 import {useState} from "react"
 import '../css/Favorites.css'
 
+/* 
+Component that stores data about my 
+photos with a search query to find said 
+photos (includes: title and date) 
+*/
+
 function Favorite() {
     const [searchQuery, setSearchQuery] = useState("");
 

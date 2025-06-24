@@ -1,6 +1,10 @@
 import "../css/ProjectCard.css"
 import Project from '../components/ProjectCard.jsx'
 
+/*
+Collage of my Projects
+*/
+
 function Projects() {
 
     return (

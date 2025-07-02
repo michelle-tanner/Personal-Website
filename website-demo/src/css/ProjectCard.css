@@ -92,10 +92,10 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('../assets/projects/wics_website.svg');
+    background-image: url('../assets/projects/voyage_game.jpg');
 }
 .card[for="c2"] {
-    background-image: url('../assets/projects/personal_website.jpg');
+    background-image: url('../assets/projects/cow_chase.jpg');
 }
 .card[for="c3"] {
     background-image: url('../assets/projects/thai_bowl.jpg');

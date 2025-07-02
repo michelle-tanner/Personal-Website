@@ -1,3 +1,4 @@
+import '../css/Test.css' /*temporary styling file*/
 
 function Info() {
     return (

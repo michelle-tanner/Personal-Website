@@ -1,3 +1,7 @@
+* {
+    color: var(--primary-text-color);
+}
+
 /* .box {
     width: 40%;
     background-color: #f9f9f9;

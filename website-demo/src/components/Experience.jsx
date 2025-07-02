@@ -3,7 +3,7 @@ import ExpCard from '../components/ExpCard.jsx'
 function Experience() {
     return (
     <>
-    Experience
+    {/* Experience */}
     <div className="info">
         <ExpCard name="WiCs Website" description="Worked with a 16 count team led by women to build and deploy a resourceful website for UIC's Women in Computer Science club."/>
         <ExpCard name="Personal Website" description="Fall2024-Summer2025 project to refine skills in React, Astro, and JavaScript."/>

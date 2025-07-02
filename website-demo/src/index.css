@@ -18,7 +18,8 @@
 }
 
 [data-theme="dark"] {
-  --background-color: #1E1E1E;
+  /* --background-color: #1E1E1E; */
+  --background-color: #0F0F0F;
   --box-color: #222222;
   --box-shadow-color: rgba(255, 255, 255, 0.5);
   --primary-text-color: white;

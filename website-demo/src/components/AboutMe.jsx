@@ -16,7 +16,7 @@ function AboutMe() {
             </div>
             
             <div className="about">
-                <div>I'm a 20 year old developer, focused primarly in full-stack and quantum computing.</div>
+                <div class="about-me">I'm a 20 year old developer, focused primarly in full-stack and quantum computing.</div>
             </div>
                
         </div>

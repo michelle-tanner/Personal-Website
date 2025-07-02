@@ -64,7 +64,7 @@ function App() {
           <Route path="/info" element={<Info/>}/>
           <Route path="/contact" element={<Contact linkedin={currLinkedIn} github={currGithub} email={currEmail}/>}/>
 
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home linkedin={currLinkedIn} github={currGithub}/>}/>
           <Route path="/favorites" element={<Favorites/>}/>
           <Route path="/carousel-page" element={<Carousel_demo/>}/>
           <Route path="/bbm" element={<Biggs/>}/>

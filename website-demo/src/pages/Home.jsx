@@ -4,7 +4,7 @@ import AboutMe from '../components/AboutMe.jsx'
 import TechStack from '../components/TechStack.jsx';
 import Experience from '../components/Experience.jsx'
 
-function Home() {
+function Home( {linkedin, github}) {
 
     return (
     <>
@@ -12,7 +12,7 @@ function Home() {
 
     <div className="home">
         <div className="left-side">
-            <AboutMe/>
+            <AboutMe linkedin={linkedin} github={github}/>
             <TechStack/>
         </div>
         <div className="right-side">

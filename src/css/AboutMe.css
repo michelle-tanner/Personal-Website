@@ -1,0 +1,102 @@
+.info {
+    /* width: 40%; */
+    /* width: 100%; */
+    max-width: 500px;
+    background-color: var(--box-color);
+    box-shadow: 0px 0px 2px var(--box-shadow-color);
+    border-radius: 15px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 10px 20px;
+}
+
+.about {
+    padding: 10px 20px 25px 20px;
+    display: flex;
+    color: var(--primary-text-color);
+}
+.fullstack {
+    display: flex;
+    flex-direction: column;
+}
+
+/* about me */
+.socials {
+    display: flex;
+    align-items: center;
+}
+.socials a img {
+    width: 40px;
+}
+.loc {
+    font-size: smaller;
+    color: var(--secondary-text-color);
+}
+.name {
+    color: var(--primary-text-color);
+    font-size:xx-large;
+}
+.about-me {
+    color: var(--primary-text-color);
+}
+
+/* tech stack */
+
+.info a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.info a:link {
+    color: black;
+}
+.info a:visited {
+    color: black;
+}
+
+.info img {
+    width: 2rem;
+    padding: 5px;
+}
+
+.bubble {
+    margin-top: 25px;
+}
+.fullstack {
+    color: var(--primary-text-color);
+}
+.quantum {
+    color: var(--primary-text-color);
+}
+.heading {
+    padding-left: 20px;
+    color: var(--primary-text-color);
+}
+#lang {
+    color: var(--primary-text-color);
+}
+
+/* experience */
+.project {
+    display: flex;
+    padding: 5px;
+}
+
+
+.circle {
+    min-width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(135, 82, 181); 
+    border: 2px solid #000;
+}
+
+.project-title {
+    padding-left: 10px;
+    color: var(--primary-text-color);
+}

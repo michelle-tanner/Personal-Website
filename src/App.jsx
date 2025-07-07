@@ -78,15 +78,4 @@ function App() {
   )
 }
 
-// function Navigation({text, text2}) {
-
-//   return (
-//     <>
-//     <div>Hello World</div>
-//     <div>Passed in value: {text}</div>
-//     <div>Another passed in value: {text2}</div>
-
-//     </>
-//   )
-// }
 export default App

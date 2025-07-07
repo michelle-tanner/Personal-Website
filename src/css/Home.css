@@ -1,0 +1,9 @@
+.home {
+    width: 80.5%;
+    height: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content:flex-start;
+}
+
